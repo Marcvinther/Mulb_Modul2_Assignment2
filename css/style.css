@@ -1,0 +1,91 @@
+
+/* Body styling */
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Myriad Pro' Georgia, serif;
+}
+
+#menu {}
+/* Menu styling */
+#menu li {
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-size: 1.2em;
+    margin-top: 20px;
+    width: 130px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+}
+#menu ul {
+    list-style: none;
+    background: #F1F5F6;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 95px;
+    box-shadow: 0px 0px 15px;
+}
+
+/* Menu styling links */
+#menu a {
+    text-decoration: none;
+    color:#000000;
+    display: block;
+    transition: .3s background-color;
+	font-weight: 100;
+}
+ /* Menu styling hover */
+#menu a:hover {
+    color:#939393;
+	text-decoration:underline;
+	color: red;
+}
+/* Menu styling active links */
+#menu a.active{
+    color:#939393;
+	font-weight: bold;
+}
+
+/* P styling - Brødtekst */
+p {
+	padding-right: 250px;
+	padding-left: 250px;
+	
+	color: red;
+
+}
+
+/* H1 styling - overskrift */
+h1 {
+display: inline-block;
+font-family: 'Myriad Pro';
+}
+
+/* Img styling - billeder */
+img {
+display: block;
+}
+
+#liste{}
+
+#liste ul{
+	display:inline;
+	font: 'Myriad Pro';
+	color: blue;
+	font-weight: 600;
+
+}
+#liste li {
+}
+
+#logud{
+	width: 12%;
+	border: solid black;
+	float: right;
+	}
+#logud a {
+	color: black;
+	}
+	

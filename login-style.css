@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  /* reset default values */
+  font-family: 'Raleway', Helvetica, "Helvetica Neue", sans-serif;
+  font-size: medium;
+}
+h1 {
+  font-weight: lighter;
+  font-size: 26px;
+  font-family: Raleway;
+  margin-right: 70%;
+  text-align: center;
+}
+p {
+  font-size: 15px;
+  font-family: Raleway;
+  text-align: left;
+  letter-spacing: 0.5px;
+  
+}
+/*opret bruger boks*/
+input {
+  width: 65%;
+  padding: 10px;
+  border: thin solid;
+  letter-spacing: 1px;
+  color: grey;
+}
+.login-formular {
+	margin-left: 33%;
+	float: left;
+	width: 80%;
+	background: white;
+	align-content: center;
+}
+.form-group {
+	width: 40%;
+	margin-top: 1%;
+}
+
+.opret_login {
+	background-color:#C8C1C1; 
+	color: white; 
+	float: right; 
+	margin-left: 10%;
+	padding: 2%;
+	font-size: 11px;
+	
+	}
+a{
+	text-decoration: underline;
+	font-size: 15px;
+  	font-family: Raleway;
+  	text-align: left;
+	color: black;
+}
